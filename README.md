@@ -6,6 +6,10 @@
 ```
 sh <(wget -O - https://raw.githubusercontent.com/Slava-Shchipunov/awg-openwrt/refs/heads/master/amneziawg-install.sh)
 ```
+AWG 2.0 пока не влит в мастер, поэтому можно установить из фиче ветки (при настройке скриптом параметры S3, S4 и все I параметры нужно будет ввести вручную через luci или в /etc/config/network, позже доработаю скрипт):
+```
+sh <(wget -O - https://raw.githubusercontent.com/Slava-Shchipunov/awg-openwrt/refs/heads/feat/awg-2.0/amneziawg-install.sh)
+```
 
 # Сборка пакетов для всех устройств, поддерживающих OpenWRT
 В репозиторий добавлен скрипт, который парсит данные о поддерживаемых платформах со страницы OpenWRT и автоматически запускает сборку пакетов AmneziaWG для всех устройств.
@@ -16,6 +20,11 @@ sh <(wget -O - https://raw.githubusercontent.com/Slava-Shchipunov/awg-openwrt/re
 4) [23.05.3](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v23.05.3)
 5) [23.05.4](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v23.05.4)
 6) [23.05.5](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v23.05.5)
+7) AWG-2.0 [23.05.6](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v23.05.6)
+8) [24.10.0](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v24.10.0)
+9) [24.10.1](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v24.10.1)
+10) [24.10.2](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v24.10.2)
+11) AWG-2.0 [24.10.3](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/v24.10.3)
 
 И собрал пакеты для популярных устройств для OpenWRT [SNAPSHOT](https://github.com/Slava-Shchipunov/awg-openwrt/releases/tag/SNAPSHOT)
 
