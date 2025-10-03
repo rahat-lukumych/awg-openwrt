@@ -197,3 +197,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: awgrelease/*.ipk
+          tag_name: v${{ matrix.build_env.tag }}
