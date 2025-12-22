@@ -1,3 +1,5 @@
+https://img.shields.io/github/downloads/Slava-Shchipunov/awg-openwrt/total
+
 # Пакеты amneziawg для роутеров с прошивкой OpenWRT
 
 ## Автоматическая настройка AmneziaWG для OpenWRT версии 23.05.0 и более новых
